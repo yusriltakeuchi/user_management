@@ -2,7 +2,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
-import 'package:user_management/domain/response/api_response.dart';
+import 'package:user_management/domain/base/response/api_response.dart';
 import 'package:user_management/infrastructure/services/base/api.dart';
 import 'package:user_management/infrastructure/services/base/base_api_impl.dart';
 

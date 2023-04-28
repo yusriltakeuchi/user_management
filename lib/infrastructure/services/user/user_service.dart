@@ -1,7 +1,7 @@
 
 import 'package:dartz/dartz.dart';
-import 'package:user_management/domain/failure/failure.dart';
-import 'package:user_management/domain/response/api_response.dart';
+import 'package:user_management/domain/base/failure/failure.dart';
+import 'package:user_management/domain/base/response/api_response.dart';
 import 'package:user_management/domain/user/user_model.dart';
 import 'package:user_management/infrastructure/services/base/base_api.dart';
 

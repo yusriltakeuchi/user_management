@@ -1,6 +1,6 @@
 
 
-import 'package:user_management/domain/response/api_response.dart';
+import 'package:user_management/domain/base/response/api_response.dart';
 
 abstract class BaseAPIImpl {
   Future<APIResponse> get(String url, {Map<String, dynamic>? param, bool? useToken});
